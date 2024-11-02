@@ -1,8 +1,9 @@
 ---
 import RootLayout from "~/layouts/root-layout.astro";
 import ProjectsSection from "~/components/svelte/projects-section.svelte";
+import { logoSpelling } from "~/content/common";
 ---
 
-<RootLayout title="devtools" description="devtools">
+<RootLayout title={logoSpelling} description={logoSpelling}>
   <ProjectsSection client:load />
 </RootLayout>

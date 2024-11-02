@@ -1,8 +1,9 @@
 ---
 import RootLayout from "~/layouts/root-layout.astro";
 import ContactSection from "~/components/svelte/contact-section.svelte";
+import { logoSpelling } from "~/content/common";
 ---
 
-<RootLayout title="devtools" description="devtools">
+<RootLayout title={logoSpelling} description={logoSpelling}>
   <ContactSection client:load />
 </RootLayout>

@@ -5,9 +5,10 @@ import QuoteSection from "~/components/vue/quote-section.vue";
 import FeatProjectsSection from "~/components/svelte/feat-projects-section.svelte";
 import FeatServicesSection from "~/components/svelte/feat-services-section.svelte";
 import CTASection from "~/components/vue/cta-section.vue";
+import { logoSpelling } from "~/content/common";
 ---
 
-<RootLayout title="devtools" description="devtools">
+<RootLayout title={logoSpelling} description={logoSpelling}>
   <HeroSection client:load />
   <QuoteSection client:load />
   <FeatProjectsSection client:load />
