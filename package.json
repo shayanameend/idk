@@ -1,0 +1,39 @@
+{
+	"name": "@devtools/portfolio",
+	"version": "1.0.0",
+	"private": "true",
+	"license": "MIT",
+	"type": "module",
+	"packageManager": "pnpm@9.1.0",
+	"scripts": {
+		"dev": "astro dev",
+		"start": "astro dev",
+		"build": "astro check && astro build",
+		"preview": "astro preview",
+		"astro": "astro",
+		"biome": "biome"
+	},
+	"dependencies": {
+		"@astrojs/check": "latest",
+		"@astrojs/svelte": "latest",
+		"@astrojs/tailwind": "latest",
+		"@astrojs/vercel": "latest",
+		"@astrojs/vue": "latest",
+		"@biomejs/biome": "latest",
+		"@fontsource-variable/raleway": "latest",
+		"@types/node": "latest",
+		"astro": "latest",
+		"embla-carousel": "latest",
+		"embla-carousel-autoplay": "latest",
+		"embla-carousel-class-names": "latest",
+		"gsap": "latest",
+		"lucide": "latest",
+		"lucide-svelte": "latest",
+		"lucide-vue-next": "latest",
+		"nanostores": "latest",
+		"svelte": "5.0.0-next.133",
+		"tailwindcss": "latest",
+		"typescript": "latest",
+		"vue": "latest"
+	}
+}

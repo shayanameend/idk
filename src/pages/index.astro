@@ -1,0 +1,17 @@
+---
+import RootLayout from "~/layouts/root-layout.astro";
+import HeroSection from "~/components/svelte/hero-section.svelte";
+import QuoteSection from "~/components/vue/quote-section.vue";
+import FeatProjectsSection from "~/components/svelte/feat-projects-section.svelte";
+import FeatServicesSection from "~/components/svelte/feat-services-section.svelte";
+import CTASection from "~/components/vue/cta-section.vue";
+---
+
+<RootLayout title="devtools" description="devtools">
+  <HeroSection client:load />
+  <QuoteSection client:load />
+  <FeatProjectsSection client:load />
+  <CTASection client:load />
+  <FeatServicesSection client:load />
+  <CTASection client:load />
+</RootLayout>
