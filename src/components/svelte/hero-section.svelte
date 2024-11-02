@@ -71,7 +71,7 @@ useEffect(() => {
           <br />
         {/if}
       {/each}
-      <span class="font-bold text-[#fe4164]">
+      <span class="opacity-0 font-bold text-[#fe4164]">
         .
       </span>
     </h3>
